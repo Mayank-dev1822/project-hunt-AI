@@ -30,6 +30,7 @@ function Home() {
         setData({ currentData: response, initialData: response });
       }
     } catch (error) {
+      console.log(error);
     } finally {
       setIsLoading(false);
     }

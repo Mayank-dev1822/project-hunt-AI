@@ -30,6 +30,7 @@ function Card({ individualData }) {
   }
 
   const handleClose = () => {
+    console.log("called");
     setTest(true);
   };
 
