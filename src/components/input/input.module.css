@@ -1,0 +1,19 @@
+#searchBtn{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#searchBtn:focus{
+    border: none;
+}
+
+#searchBtn:hover{
+    background-color: rgb(84, 84, 252);
+}
